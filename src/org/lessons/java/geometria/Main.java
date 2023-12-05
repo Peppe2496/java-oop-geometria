@@ -17,6 +17,10 @@ public class Main {
         System.out.println("L'area del rettangolo è: " + rettangolo.area());
         System.out.println("Il perimetro del rettangolo è: " + rettangolo.perimetro());
 
+        String stampaRettangolo = rettangolo.disegna();
+        System.out.println(stampaRettangolo);
 
+
+        scanner.close();
     }
 }
